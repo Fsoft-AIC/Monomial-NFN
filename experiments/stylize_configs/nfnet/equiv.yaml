@@ -1,0 +1,13 @@
+defaults:
+  - inp_enc_cls: gaussian
+
+_target_: experiments.stylize_models.TransferNet
+pos_enc_cls: null
+hidden_chan: 128
+hidden_layers: 3
+mode: HNP
+init_type: "pytorch_default"
+out_scale: 0.01
+lnorm: false
+special: False
+dropout: 0

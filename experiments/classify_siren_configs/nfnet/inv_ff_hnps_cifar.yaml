@@ -1,0 +1,11 @@
+defaults:
+  - inv_ff_hnps
+  - pos_enc_cls: sin
+
+mode: NP
+init_type: "pytorch_default"
+model_type: "S_sin_abs"
+hnps_dim: 16
+concat: True
+head_cls:
+  dropout: 0.5

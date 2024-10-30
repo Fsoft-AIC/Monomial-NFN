@@ -1,0 +1,11 @@
+defaults:
+  - head_cls: mlp
+
+_target_: experiments.models.StatNet
+h_size: 1000
+dropout: 0.0
+sigmoid: true
+normalize: false
+hchannels: None
+mode: StatNet
+init_type: pytorch_default

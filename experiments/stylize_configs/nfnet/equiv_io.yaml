@@ -1,0 +1,8 @@
+defaults:
+  - equiv
+  - pos_enc_cls: sin
+
+mode: NP
+init_type: pytorch_default #xavier_normal pytorch_default
+special: False
+hidden_channels: 16

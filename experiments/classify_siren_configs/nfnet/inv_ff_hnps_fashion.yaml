@@ -1,0 +1,18 @@
+defaults:
+  - head_cls: mlp_hnps
+  - inp_enc_cls: gaussian
+
+_target_: experiments.models.InvariantNFN_HNPS
+hchannels: [256,256,256]
+mode: HNP
+feature_dropout: 0.0
+normalize: false
+lnorm: null
+append_stats: false
+pos_enc_cls: null
+hnps_dim: 64
+init_type: "xavier_normal" #kaiming_normal , pytorch_default , xavier_normal , xavier_uniform
+model_type: "S_sin_abs"
+concat: True
+head_cls:
+  dropout: 0.5

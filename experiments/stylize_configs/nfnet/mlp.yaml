@@ -1,0 +1,7 @@
+_target_: experiments.stylize_models.MLPTransferNet
+h_size: 1000
+out_scale: 0.01
+hidden_chan: 128
+hidden_layers: 3
+mode: HNP
+init_type: "pytorch_default"

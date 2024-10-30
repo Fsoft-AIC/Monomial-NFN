@@ -1,0 +1,9 @@
+__pycache__
+venv
+dist/
+*.egg-info
+build/
+experiments/data
+outputs/
+wandb/
+experiments/augmented_data

@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - override /nfnet: inv_ff_hnps_mnist
+  - override /dset: mnist
+  - override /opt: adam_hnps
+
+extra_aug: 0

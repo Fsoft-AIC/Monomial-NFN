@@ -1,0 +1,9 @@
+_target_: experiments.data_utils.ZooDataset
+data_path: ${data_root_dir}/cifar10
+idcs_file: ./experiments/predict_gen_data_splits/cifar10_split.csv
+augment_factor: 2
+scale_low: -1
+scale_high: 1
+load_augmented: True
+augment_path: "experiments/augmented_data/augment_zoo_cifar_tanh_-1_1.pickle"
+filter_activation: "tanh"

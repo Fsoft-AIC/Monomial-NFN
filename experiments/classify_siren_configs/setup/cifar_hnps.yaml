@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - override /nfnet: inv_ff_hnps_cifar
+  - override /dset: cifar
+  - override /opt: adam
+
+extra_aug: 0

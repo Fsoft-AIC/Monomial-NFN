@@ -1,0 +1,7 @@
+# @package _global_
+
+defaults:
+  - override /dset: cifar
+  - override /nfnet: mlp_big  # res_io inv_ff_io
+
+extra_aug: 0
